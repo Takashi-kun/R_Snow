@@ -7,9 +7,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.box = 'gcp-base'
 
     ## define basic info
-    config.vm.define 'chousei_api_wrapper_local' do |d|
-        d.vm.hostname = 'chousei-api-wrapper-local'
-        d.vm.network 'private_network', ip: '192.168.99.13'
+    config.vm.define 'vagrant_14' do |d|
+        d.vm.hostname = 'vagrant_14'
+        d.vm.network 'private_network', ip: '192.168.99.14'
     end
 
     ## define spec

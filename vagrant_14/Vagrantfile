@@ -8,7 +8,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     ## define basic info
     config.vm.define 'vagrant_14' do |d|
-        d.vm.hostname = 'vagrant_14'
+        d.vm.hostname = 'vagrant-192.168.99.14'
         d.vm.network 'private_network', ip: '192.168.99.14'
     end
 
